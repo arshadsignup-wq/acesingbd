@@ -48,7 +48,7 @@
             "latitude": "23.7461",
             "longitude": "90.3742"
         },
-        "openingHours": "Mo-Sa 09:00-18:00",
+        "openingHours": "Sa-Th 09:00-18:00",
         "image": "https://acesinc.com.bd/banner%202.png",
         "priceRange": "$$",
         "areaServed": {
@@ -279,15 +279,17 @@
         .trust__track {
             display: flex; align-items: center; gap: 48px;
             width: max-content;
-            animation: marquee 25s linear infinite;
+            animation: marquee 45s linear infinite;
         }
         .trust__track:hover { animation-play-state: paused; }
         .trust__logo {
             flex-shrink: 0;
-            opacity: 0.3; transition: opacity 0.3s; cursor: default;
+            width: 120px; height: 80px;
+            display: flex; align-items: center; justify-content: center;
+            opacity: 0.85; transition: opacity 0.3s; cursor: default;
         }
-        .trust__logo:hover { opacity: 0.7; }
-        .trust__logo svg { height: 16px; width: auto; }
+        .trust__logo:hover { opacity: 1; }
+        .trust__logo img { max-height: 100%; max-width: 100%; object-fit: contain; }
         @keyframes marquee {
             0% { transform: translateX(0); }
             100% { transform: translateX(-50%); }
@@ -855,19 +857,41 @@
                 <div class="trust__text">Trusted by leading brands:</div>
                 <div class="trust__marquee">
                     <div class="trust__track">
-                        <div class="trust__logo"><svg viewBox="0 0 100 16" xmlns="http://www.w3.org/2000/svg"><text x="0" y="13" font-family="'Outfit',sans-serif" font-size="13" font-weight="700" fill="#111">AMARBAY</text></svg></div>
-                        <div class="trust__logo"><svg viewBox="0 0 45 16" xmlns="http://www.w3.org/2000/svg"><text x="0" y="13" font-family="'Outfit',sans-serif" font-size="13" font-weight="700" fill="#111">AKIJ</text></svg></div>
-                        <div class="trust__logo"><svg viewBox="0 0 85 16" xmlns="http://www.w3.org/2000/svg"><text x="0" y="13" font-family="'Outfit',sans-serif" font-size="13" font-weight="700" fill="#111">WALTON</text></svg></div>
-                        <div class="trust__logo"><svg viewBox="0 0 35 16" xmlns="http://www.w3.org/2000/svg"><text x="0" y="13" font-family="'Outfit',sans-serif" font-size="13" font-weight="700" fill="#111">ACI</text></svg></div>
-                        <div class="trust__logo"><svg viewBox="0 0 165 16" xmlns="http://www.w3.org/2000/svg"><text x="0" y="13" font-family="'Outfit',sans-serif" font-size="12" font-weight="700" fill="#111">OLYMPIC INDUSTRIES</text></svg></div>
-                        <div class="trust__logo"><svg viewBox="0 0 125 16" xmlns="http://www.w3.org/2000/svg"><text x="0" y="13" font-family="'Outfit',sans-serif" font-size="13" font-weight="700" fill="#111">MEENA BAZAR</text></svg></div>
+                        <div class="trust__logo"><img src="logos/1.jpg" alt="Mcdonald Crops" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/2.jpg" alt="INSEE" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/3.jpg" alt="Partex Star Group" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/4.jpg" alt="Marine company" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/5.jpg" alt="Pharmasia" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/6.jpg" alt="Supreme Seed" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/7.jpg" alt="Tiger New Energy" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/8.jpg" alt="T.K. Group" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/9.jpg" alt="Utsab Group" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/10.jpg" alt="Pushti" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/11.jpg" alt="Allure Leathers Limited" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/12.jpg" alt="Babylon" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/13.jpg" alt="BIO" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/14.jpg" alt="Bombay Sweets" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/15.jpg" alt="Confidence Cement" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/16.jpg" alt="GJUS" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/17.jpg" alt="Finis and Tara" loading="lazy"></div>
                         <!-- duplicate for seamless loop -->
-                        <div class="trust__logo"><svg viewBox="0 0 100 16" xmlns="http://www.w3.org/2000/svg"><text x="0" y="13" font-family="'Outfit',sans-serif" font-size="13" font-weight="700" fill="#111">AMARBAY</text></svg></div>
-                        <div class="trust__logo"><svg viewBox="0 0 45 16" xmlns="http://www.w3.org/2000/svg"><text x="0" y="13" font-family="'Outfit',sans-serif" font-size="13" font-weight="700" fill="#111">AKIJ</text></svg></div>
-                        <div class="trust__logo"><svg viewBox="0 0 85 16" xmlns="http://www.w3.org/2000/svg"><text x="0" y="13" font-family="'Outfit',sans-serif" font-size="13" font-weight="700" fill="#111">WALTON</text></svg></div>
-                        <div class="trust__logo"><svg viewBox="0 0 35 16" xmlns="http://www.w3.org/2000/svg"><text x="0" y="13" font-family="'Outfit',sans-serif" font-size="13" font-weight="700" fill="#111">ACI</text></svg></div>
-                        <div class="trust__logo"><svg viewBox="0 0 165 16" xmlns="http://www.w3.org/2000/svg"><text x="0" y="13" font-family="'Outfit',sans-serif" font-size="12" font-weight="700" fill="#111">OLYMPIC INDUSTRIES</text></svg></div>
-                        <div class="trust__logo"><svg viewBox="0 0 125 16" xmlns="http://www.w3.org/2000/svg"><text x="0" y="13" font-family="'Outfit',sans-serif" font-size="13" font-weight="700" fill="#111">MEENA BAZAR</text></svg></div>
+                        <div class="trust__logo"><img src="logos/1.jpg" alt="Mcdonald Crops" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/2.jpg" alt="INSEE" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/3.jpg" alt="Partex Star Group" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/4.jpg" alt="Marine company" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/5.jpg" alt="Pharmasia" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/6.jpg" alt="Supreme Seed" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/7.jpg" alt="Tiger New Energy" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/8.jpg" alt="T.K. Group" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/9.jpg" alt="Utsab Group" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/10.jpg" alt="Pushti" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/11.jpg" alt="Allure Leathers Limited" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/12.jpg" alt="Babylon" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/13.jpg" alt="BIO" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/14.jpg" alt="Bombay Sweets" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/15.jpg" alt="Confidence Cement" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/16.jpg" alt="GJUS" loading="lazy"></div>
+                        <div class="trust__logo"><img src="logos/17.jpg" alt="Finis and Tara" loading="lazy"></div>
                     </div>
                 </div>
             </div>
@@ -1061,7 +1085,7 @@
                         <div class="crow rv rv-d4"><svg class="crow__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg><div><div class="crow__label">Email</div><div class="crow__val"><a href="mailto:team.acesinc@gmail.com">team.acesinc@gmail.com</a></div></div></div>
                         <div class="crow rv rv-d5"><svg class="crow__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><div><div class="crow__label">Address</div><div class="crow__val"><a href="https://maps.google.com/?q=Shaptak+Square+Dhanmondi+Dhaka+1209+Bangladesh" target="_blank" rel="noopener">Holding 02, Road 16 (Old: 27), Shaptak Square, Level 7, Dhanmondi, Dhaka 1209, Bangladesh</a></div></div></div>
                         <div class="crow rv rv-d5"><svg class="crow__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2a10 10 0 00-8.675 14.958L2 22l5.233-1.275A10 10 0 1012 2z"/></svg><div><div class="crow__label">WhatsApp</div><div class="crow__val"><a href="https://wa.me/8801824504883" target="_blank" rel="noopener">+880 1824 504 883</a></div></div></div>
-                        <div class="crow rv rv-d5"><svg class="crow__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><div><div class="crow__label">Hours</div><div class="crow__val">Mon to Sat: 9 AM to 6 PM</div></div></div>
+                        <div class="crow rv rv-d5"><svg class="crow__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><div><div class="crow__label">Hours</div><div class="crow__val">Sat to Thu: 9 AM to 6 PM</div></div></div>
                     </div>
                 </div>
                 <div class="contact__form rv rv-d2">
