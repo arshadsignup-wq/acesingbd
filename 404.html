@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | ACES Inc.</title>
+    <link rel="icon" type="image/png" href="LOGO-01.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --black: #111111;
+            --body: #444444;
+            --muted: #888888;
+            --border: #e8e8e8;
+            --white: #ffffff;
+            --green: #1a6b4a;
+            --green-light: #e6f4ed;
+            --bg-light: #f7f7f5;
+            --font-heading: 'Outfit', system-ui, sans-serif;
+            --font-body: 'Inter', system-ui, sans-serif;
+            --r-full: 100px;
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--white);
+            color: var(--body);
+            min-height: 100vh;
+            display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            -webkit-font-smoothing: antialiased;
+        }
+        img { max-width: 100%; display: block; }
+        a { color: inherit; text-decoration: none; }
+        .logo { height: 36px; width: auto; margin: 0 auto 2rem; opacity: 0.5; }
+        .code {
+            font-family: var(--font-heading);
+            font-size: clamp(4rem, 12vw, 7rem);
+            font-weight: 800;
+            color: var(--black);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+        .title {
+            font-family: var(--font-heading);
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--black);
+            margin-bottom: 0.6rem;
+        }
+        .desc {
+            font-size: 0.9rem;
+            color: var(--muted);
+            max-width: 400px;
+            line-height: 1.7;
+            margin: 0 auto 2rem;
+        }
+        .btn {
+            display: inline-flex; align-items: center; gap: 8px;
+            font-family: var(--font-body); font-size: 0.85rem; font-weight: 500;
+            padding: 12px 24px; border-radius: var(--r-full);
+            border: 1.5px solid var(--black);
+            background: var(--black); color: var(--white);
+            cursor: pointer; transition: all 0.3s;
+        }
+        .btn:hover { background: #333; }
+        .btn svg { transition: transform 0.3s; }
+        .btn:hover svg { transform: translateX(3px); }
+    </style>
+</head>
+<body>
+    <a href="index.html"><img src="LOGO-01.png" alt="ACES Inc." class="logo"></a>
+    <div class="code">404</div>
+    <h1 class="title">Page not found</h1>
+    <p class="desc">The page you are looking for does not exist or has been moved. Let us get you back to the right place.</p>
+    <a href="index.html" class="btn">Back to Home <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+</body>
+</html>
