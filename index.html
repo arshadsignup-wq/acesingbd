@@ -802,7 +802,7 @@
     <a href="#hero" class="skip-link">Skip to main content</a>
 
     <nav class="nav" id="navbar" role="navigation" aria-label="Main navigation">
-        <a href="#" class="nav__logo"><img src="LOGO-01.png" alt="ACES Inc. - Corrugated Box Manufacturer Bangladesh"></a>
+        <a href="#hero" class="nav__logo"><img src="LOGO-01.png" alt="ACES Inc. - Corrugated Box Manufacturer Bangladesh"></a>
         <div class="nav__links">
             <a href="#about">About</a>
             <a href="#products">Products</a>
@@ -1216,11 +1216,11 @@
                     btn.style.background = '#1a6b4a'; btn.style.borderColor = '#1a6b4a';
                     this.reset();
                 } else {
-                    btn.innerHTML = '<span style="display:inline-flex;align-items:center;gap:8px">Error — try again</span>';
+                    btn.innerHTML = '<span style="display:inline-flex;align-items:center;gap:8px">Error - try again</span>';
                     btn.style.background = '#c0392b'; btn.style.borderColor = '#c0392b';
                 }
             }).catch(() => {
-                btn.innerHTML = '<span style="display:inline-flex;align-items:center;gap:8px">Error — try again</span>';
+                btn.innerHTML = '<span style="display:inline-flex;align-items:center;gap:8px">Error - try again</span>';
                 btn.style.background = '#c0392b'; btn.style.borderColor = '#c0392b';
             }).finally(() => {
                 setTimeout(() => { btn.innerHTML = origHTML; btn.style.background = ''; btn.style.borderColor = ''; btn.disabled = false; }, 3000);
